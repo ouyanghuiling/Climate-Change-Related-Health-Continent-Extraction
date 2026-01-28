@@ -1,8 +1,8 @@
 # Climate Change & Related Health – Continent Extraction
 
 This repository contains one script to extract:
-1) all contributing continents, and
-2) leading continents (first and corresponding author addresses)
+1) All contributing continents, and
+2) Leading continents: the continent(s) of the first author (i.e., the author listed first, or the first address when author–address matching was not explicit) and/or the corresponding author(s).
 
 from a Web of Science Core Collection (WoSCC) plain-text export.
 
