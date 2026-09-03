@@ -37,7 +37,7 @@ def addlist(data):
         print('i=' + str(i))
         if data.loc[i, 'len_add'] > 0:
             if '[' in data.loc[i, 'C1']:
-                add1 = re.split(r';\s*(?=\[)', out.loc[i, 'C1'])
+                add1 = re.split(r';\s*(?=\[)', data.loc[i, 'C1'])
                 li = []
                 for t in range(len(add1)):
                     if '[' in add1[t]:
